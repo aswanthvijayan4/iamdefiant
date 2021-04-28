@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @iamdefiant
-- 👀 I’m interested in Flutter,PythonPhp,Cybersecurity,AWS
+- 👀 I’m interested in Flutter,Python,Php,Cybersecurity,AWS
 - 
 
 <!---
