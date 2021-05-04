@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "809126656444",
+    "project_id": "algopro-7e2c2",
+    "storage_bucket": "algopro-7e2c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809126656444:android:59bbeed032d9a250b353b9",
+        "android_client_info": {
+          "package_name": "com.Algoray.algopro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809126656444-k0l9ee867lc2g0ihsct94j311dja7cg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Algoray.algopro",
+            "certificate_hash": "8d5a4b8ac3f52d02e32a7b64763b7a8334e1c687"
+          }
+        },
+        {
+          "client_id": "809126656444-ucaf37dsliisqp4tr5rmlkk8s1u7le5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADtaPg73j2eD7sebqpIQi2wT29f4k7tzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809126656444-ucaf37dsliisqp4tr5rmlkk8s1u7le5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

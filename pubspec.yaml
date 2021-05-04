@@ -1,0 +1,59 @@
+name: authentication_with_bloc
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  equatable: ^1.2.5
+  #firebase_auth: ^0.20.0
+  #firebase_core: ^0.7.0
+  flutter_bloc: ^6.1.1
+  google_sign_in: ^4.5.9
+
+
+  #push
+  firebase_messaging: ^6.0.1
+  firebase_auth: ^0.20.0
+  cloud_firestore: ^0.16.0
+  firebase_core : ^0.7.0
+ #erp
+  intl: 
+  charts_flutter: ^0.9.0
+  sqflite: 
+  material_search: "^0.2.7"
+  shared_preferences: 
+  auto_size_text: "^0.3.0"
+  flutter_launcher_icons: "^0.7.4"
+
+  # contacts_service: ^0.4.6
+  json_table: 
+  flutter_datetime_picker: ^1.2.8
+  datetime_picker_formfield: ^1.0.0
+  permission_handler:
+  json_annotation:
+  built_value:
+  #flutter_bloc: ^6.0.0
+  #equatable: ^1.2.0
+  searchable_dropdown: ^1.1.2
+  google_fonts:
+  hive: ^1.4.4
+  hive_flutter: ^0.3.1
+  path_provider: ^1.6.5
+  dio:
+  shimmer:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
