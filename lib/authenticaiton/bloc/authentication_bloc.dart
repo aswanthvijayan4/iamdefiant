@@ -48,7 +48,7 @@ class AuthenticationBloc
     } else if (event is AuthenticationStateChanged) {
       if (event.authenticationDetail.isValid) {
         yield AuthenticationSuccess(
-            authenticationDetail: event.authenticationDetail);
+            authenticationDetail: event.authenticationDetail,branch:event.branch );
       } else {
         yield AuthenticationFailiure(message: 'User has logged out');
       }

@@ -22,7 +22,8 @@ class UserLoginFetching extends UserLoginState {}
 
 class UserLoginReady extends UserLoginState {
   final List data;
-  UserLoginReady({this.data});
+  final String baseUrl;
+  UserLoginReady({this.data,this.baseUrl});
 }
 
 class UserLoginFetchReady extends UserLoginState {}

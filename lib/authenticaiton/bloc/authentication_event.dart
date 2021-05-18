@@ -11,9 +11,9 @@ class AuthenticationStarted extends AuthenticationEvent {}
 
 class AuthenticationStateChanged extends AuthenticationEvent {
   final AuthenticationDetail authenticationDetail;
-  AuthenticationStateChanged({
-    @required this.authenticationDetail,
-  });
+  final String branch;
+  AuthenticationStateChanged(
+      {@required this.authenticationDetail, this.branch});
   @override
   List<Object> get props => [authenticationDetail];
 }

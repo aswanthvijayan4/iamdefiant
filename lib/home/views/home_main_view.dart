@@ -12,28 +12,28 @@ class HomeMainView extends StatefulWidget {
 }
 
 class _HomeMainViewState extends State<HomeMainView> {
-  String messageTitle = "Empty";
-  String notificationAlert = "alert";
+  // String messageTitle = "Empty";
+  // String notificationAlert = "alert";
 
-  FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
-  @override
-  void initState() {
-    // TODO: implement initState
-    _firebaseMessaging.configure(
-      onMessage: (message) async {
-        setState(() {
-          messageTitle = message["notification"]["title"];
-          notificationAlert = "New Notification Alert";
-        });
-      },
-      onResume: (message) async {
-        setState(() {
-          messageTitle = message["data"]["title"];
-          notificationAlert = "Application opened from Notification";
-        });
-      },
-    );
-  }
+  // FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+  // @override
+  // void initState() {
+  //   // TODO: implement initState
+  //   _firebaseMessaging.configure(
+  //     onMessage: (message) async {
+  //       setState(() {
+  //         messageTitle = message["notification"]["title"];
+  //         notificationAlert = "New Notification Alert";
+  //       });
+  //     },
+  //     onResume: (message) async {
+  //       setState(() {
+  //         messageTitle = message["data"]["title"];
+  //         notificationAlert = "Application opened from Notification";
+  //       });
+  //     },
+  //   );
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -85,11 +85,11 @@ class _HomeMainViewState extends State<HomeMainView> {
                 print('inside');
 
                 return Container(
-                  child: FloatingActionButton(
-                    child: Text(notificationAlert),
-                    onPressed: () async {},
-                  ),
-                );
+                    // child: FloatingActionButton(
+                    //   //child: Text(notificationAlert),
+                    //   onPressed: () async {},
+                    // ),
+                    );
                 // return Text('Welcome :${state.authenticationDetail.uid}');
               }
               return Text('Undefined state : ${state.runtimeType}');

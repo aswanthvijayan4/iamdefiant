@@ -6,7 +6,7 @@ abstract class AuthenticationState extends Equatable {
   @override
   List<Object> get props => [];
 }
- 
+
 class AuthenticationInitial extends AuthenticationState {}
 
 class AuthenticationLoading extends AuthenticationState {}
@@ -20,11 +20,10 @@ class AuthenticationFailiure extends AuthenticationState {
   List<Object> get props => [message];
 }
 
-class AuthenticationSuccess extends AuthenticationState {
+class AuthenticationSuccess extends AuthenticationState {  
   final AuthenticationDetail authenticationDetail;
-  AuthenticationSuccess({
-    @required this.authenticationDetail,
-  });
+  final String branch;
+  AuthenticationSuccess({@required this.authenticationDetail, this.branch});
   @override
   List<Object> get props => [authenticationDetail];
 }
